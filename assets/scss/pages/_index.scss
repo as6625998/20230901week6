@@ -1,0 +1,103 @@
+.header-img{
+  background-image: url('https://github.com/hexschool/2022-web-layout-training/blob/main/2023week6/event/13.jpg?raw=true');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  h1{
+    padding-bottom: 279px;
+  }
+}
+.cate{
+  img{
+    width: 80px;
+    height: 80px;
+  }
+}
+.recent-img{
+  height: 255px;
+  object-fit: cover;
+}
+.recent-icon{
+  width: 16px;
+  height: 16px;
+}
+.online-img{
+  height: 317px;
+  object-fit: cover;
+  object-position: 0 25%;
+  
+}
+.online-list{
+  border: solid 1px #000;
+  border-left: solid 4px #000;
+}
+.title{
+    letter-spacing: 8px;
+    white-space:nowrap;
+}
+.card-title-top{
+  position:relative;
+  .card-title{
+    position:absolute;
+    width: 33.3%;
+    z-index: 1;
+    top:-15px;
+    left:50%;
+    transform: translateX(-50%) rotate(-2deg);
+  }
+  .card-1n{
+    transform: rotate(-2deg);
+  }
+  .card-2n{
+    transform: rotate(2deg);
+  }
+  .card-img-top{
+    width: 274px;
+    height: 274px;
+    object-fit: cover;
+  }
+}
+.follow-icon{
+  width: 32px;
+  height: 32px;
+  text-align: center;
+  line-height: 32px;
+}
+.quote-text1{
+  font-size: 32px;
+}
+.quote-text2{
+  font-size: 18px;
+}
+.page-item{
+  a{
+    background: $primary;
+    color: #000;
+  }
+  a:hover{
+    background: #000;
+    color: #FBFF22
+  }
+}
+@media screen and (max-width:768px){
+  .header-img {
+    h1{
+    width: 50%;
+    }
+  }
+  .cate{
+    img{
+      width: 40px;
+      height: 40px;
+    }
+  }
+  .online-img{
+    height: 158px;
+  }
+  .quote-text1{
+    font-size: 18px;
+  }
+  .quote-text2{
+    font-size: 14px;
+  }
+}
